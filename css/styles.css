@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+:root{
+    --primary-color: #1E50C1;
+    --secondary-color: #91a7d9;
+    --tertiary-color: #213D49;
+    --quaternary-color: #DBCE16;
+    --quinary-color: #FFFFFF;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    background: #fff;
+    color: #333;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: var(--primary-color) 3px solid;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .quote-button {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+}
+
+.hero-text span {
+    color: var(--primary-color);
+}
+.hero-image img {
+    width: 42vw;
+}
+
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.clients ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    border-radius: 50%;
+}
+
+.testimonials {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
