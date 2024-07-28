@@ -37,7 +37,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
+                                   /* HEADER */
 header {
     background: var(--quinary-color);
     color: #333;
